@@ -1,0 +1,34 @@
+.firstSectionComponent {
+  width: 50%;
+  padding: 15px 0 15px 30px;
+}
+
+.firstSectionFieldName {
+  font-size: 18px;
+  color: #4a545c;
+}
+
+.firstSectionFieldValue {
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 10px;
+  color: #4a545c;
+}
+
+.firstSectionInput {
+  border-style: none;
+  height: 80%;
+  border-bottom: solid 1px #a7a7a790;
+  color: #a7a7a790;
+  font-size: 16px;
+  padding: 0 0 0 0;
+}
+
+.firstSectionInput:focus {
+  outline: none;
+}
+
+.firstSectionInput::placeholder {
+  color: #a7a7a790;
+  padding: 0 0 0 3px;
+}

@@ -1,0 +1,56 @@
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 89vh;
+  width: 120px;
+  box-shadow: 0 5px 1.5em #d7d7d7;
+}
+
+.sideOptionsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sideOptionsContainer:hover {
+  filter: brightness(80%);
+}
+
+.sideOptions {
+  width: 60px;
+  padding: 30px 0 30px 0;
+}
+
+.bar {
+  width: 100px;
+  height: 2px;
+  border: none;
+  margin: 30px 0 0 0;
+  background-color: #adadadb0;
+}
+
+.addContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.addContainer:hover {
+  filter: brightness(80%);
+}
+
+.add {
+  width: 60px;
+  margin-right: 10px;
+  padding: 30px 0 30px 0;
+}
+
+.sideBar h3 {
+  max-width: 100px;
+  font-size: 15px;
+  text-align: center;
+  color: #4a545cb0;
+}

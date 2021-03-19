@@ -1,0 +1,81 @@
+.topBar {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 1em #d7d7d7;
+}
+
+.optionsContainer {
+  flex: 1;
+  margin: 50px;
+}
+
+.options {
+  max-width: 35px;
+  filter: grayscale(100%);
+}
+
+.notificationContainer {
+  flex: 1;
+  max-width: 55px;
+  height: 45px;
+  margin: 0 20px 0 0;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.notificationContainer:hover {
+  filter: brightness(90%);
+}
+
+.bell {
+  position: absolute;
+  max-width: 35px;
+}
+
+.notification {
+  position: relative;
+  padding: 0 0 40px 0;
+  left: 30px;
+  max-width: 25px;
+}
+
+.notificationNumber {
+  position: relative;
+  left: 39.5px;
+  bottom: 57.5px;
+  color: #022f4f;
+}
+
+.blocksContainer {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  margin: 0 0 0 0;
+  max-width: 230px;
+}
+
+.blocks {
+  flex: 1;
+  max-width: 35px;
+  cursor: pointer;
+}
+
+.blocks:hover {
+  filter: brightness(90%);
+}
+
+.name {
+  line-break: normal;
+  padding: 0 0 5px 25px;
+  color: #a7a7a7;
+}
+
+.imgContainer {
+  flex: 1;
+  align-items: flex-end;
+  max-width: 64px;
+  margin: 0 80px 0 0;
+  cursor: pointer;
+}

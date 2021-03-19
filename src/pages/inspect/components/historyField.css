@@ -1,0 +1,10 @@
+.fieldContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.fieldHeader {
+  color: #0066f1;
+}

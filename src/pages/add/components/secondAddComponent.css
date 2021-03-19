@@ -1,0 +1,32 @@
+.secondAddComponentContainer {
+  width: 90%;
+  padding: 30px 0 0 30px;
+}
+
+.secondAddName {
+  color: #1170f1;
+}
+
+.secondAddInput {
+  color: #4a545c;
+  font-weight: 300;
+  font-size: 18px;
+  border-style: hidden;
+  border-bottom: solid 1px #a7a7a790;
+  width: 45%;
+  padding: 20px 0 0 3px;
+}
+
+.secondAddInput::placeholder {
+  color: #4a545c90;
+}
+
+.secondAddInput:focus {
+  outline: none;
+}
+
+.inputFlexBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

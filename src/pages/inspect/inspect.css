@@ -1,0 +1,36 @@
+.height100 {
+  height: 100%;
+}
+
+.mainInspectArea {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainAreaHeaderContainer {
+  width: 70%;
+  height: 80px;
+  margin-top: 50px;
+  box-shadow: 0 0 1rem #a7a7a7;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.mainAreaHeader {
+  color: #4a545c;
+  font-weight: 300;
+}
+
+.historyContainer {
+  height: 100%;
+  width: 73%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

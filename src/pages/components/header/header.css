@@ -1,0 +1,48 @@
+.headerText {
+  width: 68%;
+  font-weight: 600;
+  color: #727b82cc;
+}
+
+.endOfHeader {
+  width: 90%;
+  border-style: none;
+  background-color: #727b8240;
+  height: 2px;
+  margin: 0 60px 0 60px;
+}
+
+.buttonsContainer {
+  display: flex;
+  width: 24%;
+  justify-content: space-between;
+}
+
+.mainHeaderContainer {
+  padding: 30px 60px 0 60px;
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.buttonStyle {
+  height: 40px;
+  width: 190px;
+  border-radius: 20px;
+  border-style: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.buttonStyle:hover {
+  cursor: pointer;
+  filter: brightness(90%);
+}
+
+.red {
+  background-color: #f00;
+}
+
+.blue {
+  background-color: #0066f1;
+}
